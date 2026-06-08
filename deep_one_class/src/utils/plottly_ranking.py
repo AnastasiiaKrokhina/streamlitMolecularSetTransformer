@@ -7,8 +7,8 @@ from io import BytesIO
 import numpy as np
 from PIL import Image
 import dash
-from dash import html
-import dash_core_components as dcc
+from dash import html, dcc # updated becase probably i have newer version
+# import dash_core_components as dcc
 import pandas as pd
 import plotly.express as px
 import streamlit as st

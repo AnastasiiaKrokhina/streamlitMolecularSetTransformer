@@ -62,6 +62,6 @@ df = pd.read_csv('data/ranking.csv')
 st.write(df)
 with open('data/ranking.csv') as f:
         st.download_button('Download Table as CSV', f)
-plottly_raking(df)
+plottly_ranking(df)
 
 
